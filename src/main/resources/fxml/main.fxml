@@ -39,16 +39,16 @@
 <?import javafx.scene.text.Font?>
 
 <VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
-    <children>
-        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
-            <children>
-                <Label alignment="CENTER" layoutX="171.0" layoutY="176.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
-                    <font>
-                        <Font size="18.0" />
-                    </font>
-                </Label>
-                <Button layoutX="258.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" text="Button" />
-            </children>
-        </AnchorPane>
-    </children>
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="152.0" layoutY="25.0" prefHeight="27.0" prefWidth="336.0" style="&#10;" text="Парсер Яндекс Маркет" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <Button layoutX="260.0" layoutY="128.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Выбрать файл" />
+      </children>
+    </AnchorPane>
+  </children>
 </VBox>
